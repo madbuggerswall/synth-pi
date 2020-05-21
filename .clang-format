@@ -1,0 +1,13 @@
+
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 2
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: true
+IndentCaseLabels: false
+ColumnLimit: 0
+TabWidth: 2
+PointerAlignment: Left
+ConstructorInitializerIndentWidth: 0
+#BreakConstructorInitializers: AfterColon
+#ConstructorInitializerAllOnOneLineOrOnePerLine: true
