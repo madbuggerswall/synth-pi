@@ -23,7 +23,7 @@ int main() {
 	while (true) {
 		pwmWrite(pwmPin, std::sin(phase));
 		phase += freqA * 2.0f * pi / 50000.0f;
-		std::cout << phase << std::endl;
+		phase = std::fmod(phase, (2 * pi));
 		delayMicroseconds(delay);
 	}
 
